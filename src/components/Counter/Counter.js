@@ -12,6 +12,7 @@ const Counter = ({ count, increment, decrement }) => (
     <div className="value">{count}</div>
     <button type="button" onClick={increment}>⇧</button>
   </div>
+
 );
 
 Counter.propTypes = {
@@ -23,5 +24,6 @@ Counter.propTypes = {
 Counter.defaultProps = {
   count: 0,
 };
+
 // == Export
 export default Counter;
